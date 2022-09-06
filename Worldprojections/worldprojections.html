@@ -9,55 +9,54 @@
     <h1>In this project I learned how to display images in different projections</h1>
     
     <h2 style="color:red">How I displayed the map in different projections using QGIS</h2>
-    <p>You can write a paragraph here</p>
+    <p>By using QGIS, I was able to project the world in different ways. Some of these projections have a more rectangular look, some more spherical, and some more rounded. Yet, each projection inevitably distorts the shape, area, distance, and direction of the world map. There are so many cool ways to map the world!</p>
     
     <h2>WGS84 Projection</h2>
-    <h3>Some observations</h3>
+    <h3>This projection keeps the shape of the countries relatively the same except it vertically stretches out the countries that are closest to the poles. For example, Antartica takes up the majority of bottom part of the map. Countries that are close to the equator remain the same in shape and size.</h3>
     <a href=".//maps/4326.png">
     <img src=".//maps/4326.png" alt="WGS84" width='500px'>
     </a>
     <h2>Aitoff Projection</h2>
-    <h3>Some observations</h3>
+    <h3>This projection shows a worldview map in a more spherical way than the WGS84 projections. Countries that are near the poles are still pretty stretched horizontally yet this map reveals those countries to be more spherical than the rather 2D projection of WGS84.</h3>
     <a href=".//maps/54043.png">
     <img src=".//maps/54043.png" alt="Aitoff" width='500px'>
     </a>
-    <h2>Pseudo Mecator Projection</h2>
-    <h3>Some observations</h3>
+    <h2>Pseudo Mercator Projection</h2>
+    <h3>This projection keeps countries at the equator very similar in their original size and shape. Yet, as you get closer to the poles, the land masses start to increase. This is why Greenland is the size of the African continent, and why Antartica takes up nearly the entire bottom half of the map. This type of projection is very popular among major online map providers such as Google Maps, as it is good with navigation and direction. </h3>
     <a href=".//maps/EPSG_3857.png">
     <img src=".//maps/EPSG_3857.png" alt="Pseudo" width='500px'>
     </a>
     <h2>EPSG 53018 Projection</h2>
-    <h3>Some observations</h3>
+    <h3>This projection shows a world map with a spherical shape and the countries that are near the poles are only slighter bigger than they should be. The countries on this map also retain their original size, despite the shape being slightly skewed. Countries near the equator retain their original size and shape, in a more spherical way.</h3>
     <a href=".//maps/ESRI_53018.png">
     <img src=".//maps/ESRI_53018.png" alt="53018" width='500px'>
     </a>
     <h2>EPSG 54034 Projection</h2>
-    <h3>Some observations</h3>
+    <h3>This map is more rectangular and represents countries with their accurate landmass sizes, yet the shapes of the countries closer to the poles is stretched out vertically, as seen from the colored caps.</h3>
     <a href=".//maps/ESRI_54034.png">
     <img src=".//maps/ESRI_54034.png" alt="54034" width='500px'>
     </a>
     <h2>EPSG 54027 Projection</h2>
-    <h3>Some observations</h3>
+    <h3>This projection is most accurate near the North Pole with countries retaining their same size and shape, yet as you enter down toward the South Pole, the land masses are stretched vertically and do not retain their size or shape at all. This map projects the Earth in a spherical way, looking more like a globe.</h3>
     <a href=".//maps/ERSI_54027.png">
     <img src=".//maps/ERSI_54027.png" alt="102016" width='500px'>
     </a>
     <h2>EPSG 102016 Projection</h2>
-    <h3>Some observations</h3>
+    <h3>This projection is very similar to the EPSG 54027 projection except for the fact that the landmass at the South Pole stretches all the way around the globe projection, unlike how in the other projection the land mass just suddenly stopped. 
+    </h3>
     <a href=".//maps/ERSI_102016.png">
     <img src=".//maps/ERSI_102016.png" alt="102016" width='500px'>
     </a>
     <h2>Sphere Van der Grinten I Projection </h2>
-    <h3>Some observations</h3>
+    <h3>This projection maps the world in a spherical way, yet causes significant stretch toward the Poles and toward the outside of the map. The most accurate representation of a country is toward the middle of the map.</h3>
     <a href=".//maps/ERSI_53029.png">
     <img src=".//maps/ERSI_53029.png" alt="53029" width='500px'>
     </a>
     <h2>Sphere Loximuthal Projection</h2>
-    <h3>Some observations</h3>
+    <h3>This projection is very similar to the Aitoff projection except that in this projection, the South Pole is significantly stretched, in a different way than the North Pole is stretched. </h3>
     <a href=".//maps/ERSI_53023.png">
     <img src=".//maps/ERSI_53023.png" alt="53023" width='500px'>
     </a>
-    <h2 style="color:red">Now, you should <u>add the following projections on your own:</u></h2>
-    <h3>EPSG: 102016, and two additional projections that you choose.</h3>
     <p></p>
     <h2>Data used for this project</h2>
     <a href="https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_countries.zip"> Download Natrual Earth 1:10m Cultural Vector </a>
