@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "2route",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::6347" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 1 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 585919.415456827031448, 4513500.640913370996714 ], [ 585861.573513040319085, 4513389.241614226251841 ], [ 585463.106789175886661, 4512652.292404497973621 ], [ 585945.122987398994155, 4512390.932510350830853 ] ] ] } }
+]
+}
